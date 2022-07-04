@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2492" started-at="2022-07-02T03:02:44Z" finished-at="2022-07-02T03:02:47Z">
+  <suite name="Suite" duration-ms="3619" started-at="2022-07-04T13:54:49Z" finished-at="2022-07-04T13:54:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2492" started-at="2022-07-02T03:02:44Z" finished-at="2022-07-02T03:02:47Z">
+    <test name="Test" duration-ms="3619" started-at="2022-07-04T13:54:49Z" finished-at="2022-07-04T13:54:53Z">
       <class name="com.tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="setup" is-config="true" duration-ms="5097" started-at="2022-07-02T03:02:39Z" finished-at="2022-07-02T03:02:44Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="setup" is-config="true" duration-ms="6698" started-at="2022-07-04T13:54:43Z" finished-at="2022-07-04T13:54:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="failtest()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="failtest" duration-ms="8" started-at="2022-07-02T03:02:44Z" finished-at="2022-07-02T03:02:44Z">
+        <test-method status="FAIL" signature="failtest()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="failtest" duration-ms="21" started-at="2022-07-04T13:54:49Z" finished-at="2022-07-04T13:54:49Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -54,11 +54,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failtest -->
-        <test-method status="PASS" signature="passtest()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="passtest" duration-ms="2428" started-at="2022-07-02T03:02:44Z" finished-at="2022-07-02T03:02:47Z">
+        <test-method status="PASS" signature="passtest()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="passtest" duration-ms="3316" started-at="2022-07-04T13:54:50Z" finished-at="2022-07-04T13:54:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passtest -->
-        <test-method status="SKIP" signature="skiptest()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="skiptest" duration-ms="2" started-at="2022-07-02T03:02:47Z" finished-at="2022-07-02T03:02:47Z">
+        <test-method status="SKIP" signature="skiptest()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="skiptest" duration-ms="2" started-at="2022-07-04T13:54:53Z" finished-at="2022-07-04T13:54:53Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[skipping a testcase]]>
@@ -97,11 +97,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skiptest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="1070" started-at="2022-07-02T03:02:47Z" finished-at="2022-07-02T03:02:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="842" started-at="2022-07-04T13:54:53Z" finished-at="2022-07-04T13:54:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
